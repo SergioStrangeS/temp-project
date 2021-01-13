@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&display=swap');
+
 * {
-	font-family: Comfortaa, sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 nav a {
@@ -18,7 +20,32 @@ header {
 	margin-bottom: 20px;
 }
 
-.container {
-	width: 900px;
+.wrap {
+	width: 1440px;
 	margin: 0 auto;
+}
+
+.container {
+	width: 80%;
+	float: left;
+}
+
+aside {
+	width: 15%;
+	float: left;
+	background: #8478d50f;
+	padding: 25px;
+	margin-right: 20px;
+}
+
+aside input {
+	padding: 8px;
+	margin-top: 10px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	height: 50px;
+	padding: 25px;
 }
