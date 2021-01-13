@@ -1,0 +1,24 @@
+* {
+	font-family: Comfortaa, sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	color: #1e00f2;
+	margin-right: 2%;
+}
+
+nav a:hover {
+	color: #8478d5;
+	background: #fff;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
